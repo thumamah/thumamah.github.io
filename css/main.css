@@ -27,6 +27,9 @@ Primary use:
 }
 
 
+#texk{
+  color:black;
+}
 
 /*//////////////////////////////////////////////////////////////////
 [ RS PLUGIN ]*/
@@ -360,8 +363,9 @@ Primary use:
 [ L-Text >= 26 ]*/
 .l1-txt1 {
   font-family: Poppins-Regular;
-  font-size: 30px;
-  color: #fff;
+  font-size: 40px;
+  color: orange;
+  background-color:grey;
   line-height: 1.2;
   text-transform: uppercase;
 }
@@ -369,7 +373,8 @@ Primary use:
 .l1-txt2 {
   font-family: Poppins-Bold;
   font-size: 70px;
-  color: #fff;
+  color: orange;
+  background-color:grey;
   line-height: 1.1;
   text-transform: uppercase;
 }
