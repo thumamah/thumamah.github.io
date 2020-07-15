@@ -333,7 +333,7 @@ nav ul ul a {
 		top:8rem;
 		left:4rem;
 		font-size:.9rem;
-		color:black;
+		color:orange;
 		font-family:arial black;
 		text-shadow: 2px 2px grey;
 		
@@ -344,7 +344,7 @@ nav ul ul a {
 		top:11rem;
 		left:4rem;
 		font-size:.6rem;
-		color:black;
+		color:red;
 		font-family:arial black;
 		text-shadow: 2px 2px blue;
 		
@@ -461,7 +461,7 @@ nav ul ul a {
   border-radius:4px;
   position:relative;
   top:15rem;
-  left:10rem;
+  left:9rem;
   box-shadow: 5px 5px black;
   
 }
