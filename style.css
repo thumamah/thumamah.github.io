@@ -9,6 +9,18 @@ body{
   
 }
 
+.salam{
+	color:red;
+	position:absolute;
+	top:1rem;
+	left:10rem;
+	font-family:arial black;
+	font-size:1.5rem;
+	
+}
+
+
+
 .page{
 	padding-top:100px;
 }
