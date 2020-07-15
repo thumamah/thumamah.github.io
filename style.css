@@ -13,7 +13,7 @@ body{
 	color:red;
 	position:absolute;
 	top:6rem;
-	left:5rem;
+	left:3rem;
 	font-family:arial black;
 	font-size:2.5rem;
 	text-shadow: 1px 4px yellow;
@@ -810,13 +810,13 @@ nav ul ul a {
   background-color: blue;
   text-align: center;
   cursor: pointer;
-  width: 20rem;
+  width: 15rem;
   font-family:arial black;
   margin-bottom:1.5rem;
   border-radius:4px;
   position:relative;
   top:17rem;
-  left:4rem;
+  left:2rem;
   box-shadow: 5px 5px black;
   
 }
@@ -2408,3 +2408,65 @@ nav li a:focus,
 body{background: #eee ;font-family: 'Open Sans', sans-serif;}h3{font-size: 30px; font-weight: 400;text-align: center;margin-top: 50px;}h3 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.icon {
+  padding: 10px;
+  background: dodgerblue;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: dodgerblue;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+
+.box{
+	background-color:purple;
+    padding:2rem;
+    
+}
+
+.rf{
+	color:white;
+    font-family:arial black;
+}
