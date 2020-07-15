@@ -374,7 +374,7 @@ nav ul ul a {
 		top:8rem;
 		left:4rem;
 		font-size:1rem;
-		color:black;
+		color:orange;
 		font-family:arial black;
 		text-shadow: 2px 2px grey;
 		
@@ -385,7 +385,7 @@ nav ul ul a {
 		top:11rem;
 		left:4rem;
 		font-size:.8rem;
-		color:black;
+		color:red;
 		font-family:arial black;
 		text-shadow: 2px 2px blue;
 		
@@ -449,7 +449,7 @@ nav ul ul a {
   border: none;
   outline: 0;
   text-decoration:none;
-  display: inline-block;
+  display: none;
   padding: 8px;
   color: red;
   background-color: #00FFFF;
@@ -461,7 +461,7 @@ nav ul ul a {
   border-radius:4px;
   position:relative;
   top:15rem;
-  left:9rem;
+  left:10rem;
   box-shadow: 5px 5px black;
   
 }
@@ -484,7 +484,7 @@ nav ul ul a {
   border-radius:4px;
   position:relative;
   top:15rem;
-  left:12rem;
+  left:11rem;
   box-shadow: 5px 5px black;
   
 }
