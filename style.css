@@ -10,12 +10,13 @@ body{
 }
 
 .salam{
-	color:#00FF00;
+	color:red;
 	position:absolute;
-	top:1rem;
+	top:6rem;
 	left:5rem;
 	font-family:arial black;
 	font-size:2.5rem;
+	text-shadow: 1px 4px yellow;
 	
 	
 }
@@ -23,7 +24,7 @@ body{
 .salam2{
 	color:#00FF00;
 	position:absolute;
-	top:.5rem;
+	top:5rem;
 	left:10rem;
 	font-family:arial black;
 	font-size:2rem;
@@ -36,7 +37,7 @@ body{
 	color:#00FF00;
 	position:absolute;
 	top:.5rem;
-	left:9rem;
+	left:10rem;
 	font-family:arial black;
 	font-size:1.5rem;
 	
