@@ -10,13 +10,61 @@ body{
 }
 
 .salam{
-	color:red;
+	color:#00FF00;
 	position:absolute;
 	top:1rem;
+	left:5rem;
+	font-family:arial black;
+	font-size:2.5rem;
+	
+	
+}
+
+.salam2{
+	color:#00FF00;
+	position:absolute;
+	top:.5rem;
 	left:10rem;
+	font-family:arial black;
+	font-size:2rem;
+	
+	
+}
+
+@media screen and (max-width: 360px){
+	.salam2{
+	color:#00FF00;
+	position:absolute;
+	top:.5rem;
+	left:9rem;
 	font-family:arial black;
 	font-size:1.5rem;
 	
+	
+}
+}
+
+@media screen and (min-width: 1168px){
+	.salam{
+	color:red;
+	position:absolute;
+	top:10rem;
+	left:50rem;
+	font-family:arial black;
+	font-size:3.5rem;
+	
+	
+	
+}
+}
+
+@media screen and (min-width: 1168px){
+	.salam2{
+	display:none;
+	
+	
+	
+}
 }
 
 
@@ -345,7 +393,7 @@ nav ul ul a {
 		top:8rem;
 		left:4rem;
 		font-size:.9rem;
-		color:orange;
+		color:blue;
 		font-family:arial black;
 		text-shadow: 2px 2px grey;
 		
@@ -386,7 +434,7 @@ nav ul ul a {
 		top:8rem;
 		left:4rem;
 		font-size:1rem;
-		color:orange;
+		color:blue;
 		font-family:arial black;
 		text-shadow: 2px 2px grey;
 		
@@ -474,6 +522,30 @@ nav ul ul a {
   position:relative;
   top:15rem;
   left:10rem;
+  box-shadow: 5px 5px black;
+  
+}
+}
+
+
+@media screen and (max-width:380px) {
+.image-button {
+  border: none;
+  outline: 0;
+  text-decoration:none;
+  display: none;
+  padding: 8px;
+  color: red;
+  background-color: #00FFFF;
+  text-align: center;
+  cursor: pointer;
+  width: 12rem;
+  font-family:arial black;
+  margin-bottom:1.5rem;
+  border-radius:4px;
+  position:relative;
+  top:15rem;
+  left:8rem;
   box-shadow: 5px 5px black;
   
 }
