@@ -2469,3 +2469,87 @@ body{background: #eee ;font-family: 'Open Sans', sans-serif;}h3{font-size: 30px;
 	color:white;
     font-family:arial black;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+.skiptranslate.goog-te-gadget > div {
+  display: block;
+}
+
+select.google_translate_element {
+  color: black;
+}
+
+.goog {
+  &-logo-link {
+    display: none;
+  }
+  &-te-gadget {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    select {
+      border-radius: 0 !important;
+      -webkit-appearance: none;
+      -webkit-border-radius: 0px;
+      padding: 0.3rem 0.5rem;
+      min-width: 170px;
+      box-shadow: none;
+      border: 1px solid #aaa;
+    }
+  }
+}
+
+
+/*
+=======
+Google Translation : Custom Styles
+*/
+.gt {
+  padding-top: 56px;
+  &__box {
+    background: #565656;
+    position: fixed;
+    padding: 15px;
+    color: #b8aea5;
+    width: 100%;
+    top: 1rem;
+    left: 0;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  &__notif,
+  &__select {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  &__notif {
+    max-width: calc(100% - 166px);
+    margin: 0;
+    padding-right: 10px;
+    line-height: 18px;
+    @media screen and (max-width: 767px) {
+      max-width: 100%;
+      margin: 0 0 10px 0;
+    }
+  }
+  &__select {
+    select {
+      outline: 0;
+    }
+  }
+}
+
+
+// This code is Not needed for GT purpose.
+.theme-content{
+  padding:15px;
+}
