@@ -16,7 +16,7 @@ body{
 	left:3rem;
 	font-family:arial black;
 	font-size:2.5rem;
-	text-shadow: 1px 4px yellow;
+	text-shadow: 1px 4px #7FFF00;
 	
 	
 }
@@ -1772,11 +1772,10 @@ input[type=submit]:hover {
 
 .container {
   padding-top:100rem;
-  border-radius: 5px;
-  position:relative;
-  left:16rem;
-  width:60%;
-  background-color: #7FFFD4;
+  
+ 
+  width:100%;
+  background-color: orange;
   padding: 20px;
 }
 
@@ -1808,8 +1807,8 @@ input[type=submit]:hover {
   
   .container {
 	position:relative;
-	left:2rem;
-	width:80%;
+	left:0rem;
+	width:100%;
 	}
 	.row1{
 		position:relative;
