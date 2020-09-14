@@ -102,4 +102,15 @@ $('.goog-te-gadget').each(function() {
 });
 */
 
+var myVar;
+
+function myFunction() {
+  myVar = setTimeout(showPage, 4000);
+}
+
+function showPage() {
+  document.getElementById("socket").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+
 
