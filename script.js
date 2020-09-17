@@ -105,7 +105,7 @@ $('.goog-te-gadget').each(function() {
 var myVar;
 
 function myFunction() {
-  myVar = setTimeout(showPage, 4000);
+  myVar = setTimeout(showPage, 900);
 }
 
 function showPage() {
